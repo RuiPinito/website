@@ -1,0 +1,62 @@
+body{
+    background-image:url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.start{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3em;
+    color:white;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-left: 40em;
+    margin-right: 44.2em;
+    margin-top: 21.68em;
+}
+.start a{
+    color: turquoise;
+    transition:1s; 
+}
+.start a:hover{
+    color:white;
+    text-shadow: 0 0 8px white;
+}
+
+.biografia{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    color: white;
+}
+
+.portrait{
+    margin-left: 20px;
+}
+
+.text{
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin:auto;
+    background:black;
+    overflow: auto;
+}
+
+.galeria{
+    margin: 5px;
+    border: 5px solid #ccc;
+    float:left;
+    width: 390px;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.descriçao{
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
